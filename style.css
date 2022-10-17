@@ -1,0 +1,331 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+html{
+    padding: 0;
+    
+}
+body{
+    background-color: #080808;
+    background-attachment: fixed;
+
+}
+caption{
+    font-family: 'Silkscreen', cursive;
+    color: white;
+}
+.loginform{
+    height: 400px;
+
+    width:400px;
+    background-color: #010203;
+    position: absolute;
+    left: 50%;;
+    top: 50%;
+    margin-top: -200px;
+    margin-left:-200px;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 0Px;
+    animation : loginform1 3s infinite;
+
+
+}
+@keyframes loginform1{
+    0%{
+        box-shadow: 0px 0px 5px 1px #C724B1;
+    }
+    25%{
+        box-shadow:  0px 0px 5px 1px #4d4dff;
+
+    }
+    50%{
+        box-shadow:  0px 0px 5px 1px #E0E722;
+
+    }
+    75%{
+        box-shadow:  0px 0px 5px 1px #FFAD00;
+    }
+    80%{
+        box-shadow :  0px 0px 5px 1px #D22730;
+
+    }
+    85%{
+        box-shadow:  0px 0px 5px 1px #DB3EB1;
+    }
+    100%{
+        box-shadow:  0px 0px 5px 1px #44D62C;
+
+    }
+}
+
+.loginform p{
+    font-family:Silkscreen ;
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    text-shadow: 1px 1px blue;
+    font-size: 30px;
+    color:  red;
+    animation: loginformp 2s infinite;
+
+
+
+}
+@keyframes loginformp {
+    0%{
+        color: #C724B1;
+    }
+    25%{
+        color: #4d4dff;
+
+    }
+    50%{
+        color: #E0E722;
+
+    }
+    75%{
+       color: #FFAD00;
+    }
+    80%{
+       color: #D22730;
+
+    }
+    85%{
+        color: #DB3EB1;
+    }
+    100%{
+        color: #44D62C;
+
+    }
+}
+.loginform .userid{
+    color: black;
+    border: 1px;
+    padding: 10px;
+    font: 20px;
+    font-family: 'Silkscreen';
+    position: absolute;
+    left:20%;
+    top: 30%;
+    border-radius: 10px;
+    box-shadow:  0px 0px 2px  2px red;
+    animation: loginform1 10s infinite;
+
+
+}
+input::placeholder{
+    text-align: center;
+    
+    color: rgb(142, 0, 0);
+}
+input:hover{
+    border-radius: 100px;
+    background-color: red;
+    border: 2px blue;
+    animation: manas 2s infinite;
+}
+@keyframes  manas {
+    0%{
+        
+        background-color: rgb(92, 92, 240);
+
+    }
+
+    50%{
+       
+        background-color: goldenrod;
+    }
+    
+}
+.loginform .pw{
+    color: black;
+    border: 1px ;
+    padding: 10px;
+    font: 20px;
+    font-family: 'Silkscreen';
+    position: absolute;
+    left:20%;
+    top: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px red;
+    animation: loginform1 10s infinite;
+
+    
+}
+.loginform .subt{
+    color: black;
+    border: 1px;
+    padding: 10px;
+    font: 20px;
+    font-family: 'Silkscreen';
+    position: absolute;
+    left:45%;
+    top: 70%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px red;
+    animation: loginform1 10s infinite;
+
+}
+submit:placeholder{
+    color: rgba(142 , 0 , 0 );
+
+}
+.imagerafterl{
+    height: 1000px;
+    width: 1000px;
+    background-image:url("images/Sad\ Aesthetic\ Anime\ PC\ Wallpapers\ -\ Wallpaper\ Cave.png");
+    background-attachment: fixed;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    color: white;
+    border: 10px;
+    position: relative;
+
+
+}
+nav ul{
+    overflow: auto;
+    padding-left: 2px;
+}
+nav li {
+    list-style-type: none;
+    word-spacing: 0px;
+    float: inline;
+    float: right;
+    
+    font-family: "silkscreen","sanserif";
+    animation :navtrans 2s infinite;
+    border: 2px solid;
+    border-radius: 60px;
+    list-style-position: outside;
+    padding: 5px 20px;
+    line-height: 1.3em;
+    
+    
+}
+nav li:hover{
+    color:white;
+
+}
+
+@keyframes  navtrans {
+    0%{
+        color: #44D62C;
+    }
+    25%{
+        color: #4d4dff;
+
+    }
+    50%{
+        color: #E0E722;
+
+    }
+    75%{
+       color: #FFAD00;
+    }
+    80%{
+       color: #D22730;
+
+    }
+    85%{
+        color: #DB3EB1;
+    }
+    100%{
+        color: #44D62C;
+
+    }
+    
+}
+.navigationbar{
+    
+    height:40px;
+    padding: 7px;
+    margin: 2px;
+   animation: loginform1 1s infinite;
+
+}
+@keyframes navigationbar {
+    0%{
+        box-shadow:#FFAD00;
+    }
+    25%{
+        box-shadow:#010203;
+    }
+    50%{
+        box-shadow: #44D62C;
+    }
+    75%{
+        box-shadow:#4d4dff;
+    }
+    100%{
+        box-shadow:#D22730;
+    }
+    
+}
+nav ul{
+    display:flex;
+    padding:2px;
+    justify-content:right;
+}
+nav img{
+    height:55px;
+    padding: 1px;
+    position: absolute;
+    top: -9px;
+    
+
+    float:left;
+}
+navbar ul li { 
+	padding: 0px 20px; 
+ } 
+ .searchbar{
+    list-style-type: none;
+    word-spacing: 0px;
+    float: inline;
+    float:right;
+    position: absolute;
+    right: 200px;
+    top:3px;
+    
+    font-family: "silkscreen","sanserif";
+    animation :navtrans 2s infinite;
+    border: 2px solid;
+    border-radius: 60px;
+    list-style-position: outside;
+    padding: 6px 24px;
+    animation: searchbar 1s infite;
+    
+ }
+ @keyframes  searchbar {
+    0%{
+        color: white;
+    }
+    25%{
+        color: #44D62C;
+    }
+    50%{
+        color: #E0E722;
+    }
+    100%{
+        color:white;
+    }
+
+ }
+ .hoverimage{
+    color: white;
+ }
+.para{
+    display:none;
+
+}
+.hoverimage:hover .para{
+    display:block;
+    color:white;
+}
+
